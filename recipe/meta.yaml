@@ -1,5 +1,5 @@
 {% set name = "types-retry" %}
-{% set version = "0.9.6" %}
+{% set version = "0.9.7" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-retry-{{ version }}.tar.gz
-  sha256: 76009581fca7546795c5ed19629c995fe28893e1e7dec53c7b127cd6d1d87a6b
+  sha256: dc4d342ed1cecd90bbbaa8b37c1a33fb2d59c83c1317dedc3700b0cd36b830af
 
 build:
   number: 0
