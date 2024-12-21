@@ -1,15 +1,15 @@
-{% set version = "0.9.9.4" %}
+{% set version = "0.9.9.20241221" %}
 
 package:
   name: types-retry
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/t/types-retry/types-retry-{{ version }}.tar.gz
-  sha256: e4731dc684b56b875d9746459ad665d3bc281a56b530acdf1c97730167799941
+  url: https://pypi.org/packages/source/t/types-retry/types_retry-{{ version }}.tar.gz
+  sha256: ebad6d495a5a04ab0d06d4156a665528c3b84a8461aa019dd6e5d3e33c2aa1e0
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script:
     - {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation --disable-pip-version-check
